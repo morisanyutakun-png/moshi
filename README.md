@@ -18,10 +18,11 @@
 <body>
   <h1>考える力を育てる電磁気学模試PDF</h1>
   <div class="links">
-    <a href="https://example.com/pdf/standard.pdf" target="_blank">標準 模試PDF</a>
-    <a href="https://example.com/pdf/kyutei.pdf" target="_blank">旧帝 模試PDF</a>
-    <a href="https://example.com/pdf/hardest.pdf" target="_blank">最難関 模試PDF</a>
-    <a href="https://example.com/pdf/shuryo.pdf" target="_blank">修了 模試PDF</a>
+    <!-- 各PDF専用ページにリンク -->
+    <a href="standard.html">標準 模試PDF</a>
+    <a href="kyutei.html">旧帝 模試PDF</a>
+    <a href="hardest.html">最難関 模試PDF</a>
+    <a href="shuryo.html">修了 模試PDF</a>
   </div>
 </body>
 </html>
