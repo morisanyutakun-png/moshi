@@ -2,27 +2,15 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>電磁気学模試ポータル</title>
+  <title>標準 模試PDF</title>
   <style>
-    body { font-family: sans-serif; text-align: center; padding: 40px; background: #f8f8f8; }
-    h1 { margin-bottom: 30px; }
-    .links a {
-      display: block;
-      margin: 10px 0;
-      font-size: 1.2em;
-      text-decoration: none;
-      color: #0066cc;
-    }
+    body { font-family: sans-serif; text-align: center; padding: 40px; }
+    iframe { border: 1px solid #ccc; margin-top: 20px; }
   </style>
 </head>
 <body>
-  <h1>考える力を育てる電磁気学模試PDF</h1>
-  <div class="links">
-    <!-- 各PDF専用ページにリンク -->
-    <a href="standard.html">標準 模試PDF</a>
-    <a href="kyutei.html">旧帝 模試PDF</a>
-    <a href="hardest.html">最難関 模試PDF</a>
-    <a href="shuryo.html">修了 模試PDF</a>
-  </div>
+  <h1>標準 模試PDF</h1>
+  <iframe src="pdf/standard.pdf" width="80%" height="800px"></iframe>
+  <p><a href="index.html">← ポータルに戻る</a></p>
 </body>
 </html>
