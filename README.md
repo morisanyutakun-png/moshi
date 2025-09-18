@@ -10,7 +10,9 @@
       padding: 40px;
       background: #f8f8f8;
     }
-    h1 { margin-bottom: 30px; }
+    h1 {
+      margin-bottom: 30px;
+    }
     .links a {
       display: block;
       margin: 10px 0;
@@ -25,9 +27,10 @@
   <div class="links">
     <a href="standard.pdf" target="_blank">標準 模試PDF</a>
     <a href="kyutei.pdf" target="_blank">旧帝 模試PDF</a>
-    <a href="sainankan.pdf" target="_blank">最難関 模試PDF</a>
-    <a href="syuryo.pdf" target="_blank">修了 模試PDF</a>
+    <a href="hardest.pdf" target="_blank">最難関 模試PDF</a>
+    <a href="shuryo.pdf" target="_blank">修了 模試PDF</a>
   </div>
 </body>
 </html>
+
 
