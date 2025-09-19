@@ -4,20 +4,60 @@
   <meta charset="UTF-8">
   <title>修了 模試PDF</title>
   <style>
-    body { font-family: sans-serif; text-align: center; padding: 40px; }
-    a { display: inline-block; margin: 20px 0; font-size: 1.2em; color: #0066cc; text-decoration: none; }
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 40px;
+      background: #f9f9f9;
+    }
+    h1 {
+      margin-bottom: 30px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 400px;
+    }
+    li {
+      margin: 15px 0;
+    }
+    a {
+      display: block;
+      padding: 12px 20px;
+      font-size: 1.1em;
+      color: #0066cc;
+      text-decoration: none;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #fff;
+      transition: 0.2s;
+    }
+    a:hover {
+      background: #f0f8ff;
+      border-color: #0066cc;
+    }
+    .back-link {
+      margin-top: 40px;
+      display: inline-block;
+      color: #333;
+      text-decoration: none;
+      font-size: 0.95em;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <h1>修了 模試PDF</h1>
 
-  <!-- クリックでPDFをブラウザで表示 -->
-  <a href="standardq.pdf" target="_blank">修了模試 問題PDFを開く</a>
-  <a href="standardansbox.pdf" target="_blank">修了模試 記述式解答用紙PDFを開く</a>
-  <a href="standardans.pdf" target="_blank">修了模試 解答PDFを開く</a>
+  <ul>
+    <li><a href="shuryouq.pdf" target="_blank">修了模試 問題PDFを開く</a></li>
+    <li><a href="shuryouansbox.pdf" target="_blank">修了模試 記述式解答用紙PDFを開く</a></li>
+    <li><a href="shuryouans.pdf" target="_blank">修了模試 解答PDFを開く</a></li>
+  </ul>
 
-
-  <!-- ポータルに戻るリンク -->
-  <p><a href="index.html">← ポータルに戻る</a></p>
+  <a href="index.html" class="back-link">← ポータルに戻る</a>
 </body>
 </html>
